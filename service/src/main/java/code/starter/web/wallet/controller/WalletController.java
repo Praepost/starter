@@ -26,6 +26,9 @@ public class WalletController implements IWalletController{
 
             case ("WITHDRAW"):
                 wallet = repository.findWalletByUUID(request.getValletId()).get();
+                if (wallet.getAmount() - request.getAmount()<0){
+                    return new SuccessResponse("Не корректный размер операции");
+                }
                 wallet.setAmount(wallet.getAmount() - request.getAmount());
                 return new SuccessResponse("Операция провдена успешно");
 
