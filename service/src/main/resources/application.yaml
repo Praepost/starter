@@ -1,0 +1,17 @@
+spring:
+  liquibase:
+    enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aura_db
+    username: aurauser # ??? ???????????? ???????
+    password: aurauser # ?????? ???????
+
+    hibernate:
+      ddl-auto: create-drop
+
+    console:
+      enabled: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

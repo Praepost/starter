@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-article
+      author: Konstantin Shibkov
+      changes:
+        - createTable:
+            tableName: article
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: UUID
+                  type: varchar(100)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: amount
+                  type: int
+                  constraints:
+                    nullable: false

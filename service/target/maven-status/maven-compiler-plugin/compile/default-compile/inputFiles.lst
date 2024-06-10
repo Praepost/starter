@@ -1,0 +1,17 @@
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\Error.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\wallet\controller\dto\SuccessResponse.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\wallet\controller\WalletController.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\wallet\entity\Wallet.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\wallet\controller\IWalletController.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\wallet\controller\dto\MessagesResponse.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\wallet\controller\dto\WalletRegisterRequest.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\CommonErrorCodes.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\dto\ErrorResponseBuilder.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\dto\Response.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\ErrorResponse.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\dto\SuccessfulResponse.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\wallet\entity\repository\WalletRepository.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\GlobalExceptionHandler.java
+C:\projects\starter-home\service\src\main\java\code\starter\StarterApplication.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\dto\MessagesResponse.java
+C:\projects\starter-home\service\src\main\java\code\starter\web\exception\dto\ResponseStatus.java
