@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: code.starter.WalletTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.71 s - in code.starter.WalletTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.199 s - in code.starter.WalletTest

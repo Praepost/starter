@@ -39,11 +39,10 @@ public class WalletController implements IWalletController{
 
     @Override
     public SuccessResponse wallets(String walletUUID) {
-        Wallet wallet = repository.findWalletByUUID(walletUUID).get();
-
-        if (wallet.equals(null)){
-            return new SuccessResponse("Некорретный UUID");
-        }
+        Wallet wallet;
+        if(repository.findWalletByUUID(walletUUID).isPresent()){
+            wallet = repository.findWalletByUUID(walletUUID).get();
+        } else return new SuccessResponse("Некорретный UUID");
 
         return new SuccessResponse(wallet.getAmount().toString());
     }
